@@ -1,4 +1,4 @@
-//gives the user the output for sin(x) where x=0.1, 0.3, 0.5, 0.7, 0.9 usinf Taylor series expansion upto seven terms
+//gives the user the output for sin(x) where x=0.1, 0.3, 0.5, 0.7, 0.9 using Taylor series expansion (calculation upto seven terms)
 
 #include <stdio.h>
 #include <math.h>
