@@ -12,4 +12,4 @@ Math Programs in C:
 
 🦉Seperate Even & Odd Numbers
 
-🐸Value of sin(x) as a Taylor Series expansion (calculation upto 7 terms)
+🐸Value of sin(x) for(x=0.1,x<=0.9,x+=0.2) as a Taylor Series expansion (calculation upto 7 terms)
