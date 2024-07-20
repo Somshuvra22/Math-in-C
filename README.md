@@ -2,6 +2,8 @@ Math Programs in C:
 
 🛴Detection of Prime Number
 
+⛩Prime Numbers between 1 and 100
+
 🍬Summation of 1/n 
 
 ☘Value of exp(x) (through Taylor series Expansion)
