@@ -1,0 +1,38 @@
+#include <stdio.h>
+//Input a set of numbers and the programs seperates them into teo sets: odd and even
+int main() {
+    
+    int x[20],o[20],e[20],n,i,j=0,k=0;
+    
+    printf("Enter count of numbers(<=20):");
+    scanf("%d",&n);
+    
+    for(i=0;i<n;i++)
+    {    
+    printf("Enter number %d:",i+1);
+    scanf("%d",&x[i]);
+    }
+    
+    for(i=0;i<n;i++){        
+        if(x[i]%2==0){
+            e[j]=x[i];
+            j++;
+        }else{
+            o[k]=x[i];
+            k++;
+        }
+    }
+    
+    printf("There are %d even numbers\n",j);
+    printf("The even numbers are:\n");
+    for(i=0;i<j;i++){
+        printf(" %d\n",e[i]);
+    }
+    printf("There are %d even numbers\n",k);
+    printf("The odd numbers are:\n");
+    for(i=0;i<k;i++){
+        printf("%d\n",o[i]);
+    }
+    
+    return 0;
+}
