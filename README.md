@@ -4,4 +4,6 @@ Math Programs in C:
 
 🧐Ascending Order of Integers
 
+🦉Seperate Even & Odd Numbers
+
 🐸Expression of sin(x) as a Taylor Series expansion (upto 7 terms)
