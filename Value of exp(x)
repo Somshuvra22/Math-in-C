@@ -1,4 +1,4 @@
-##Enter the value of x and the code outputs exp(x)
+##Enter the value of x and the code outputs exp(x) (through Taylor series expansion)
 
 #include <stdio.h>
 
