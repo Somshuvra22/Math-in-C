@@ -1,0 +1,21 @@
+##Enter the value of x and the code outputs exp(x)
+
+#include <stdio.h>
+
+void main(){
+
+    float term=1.,sum=0.,x,error=10.e-6;
+    int i=1;
+
+    printf("Enter x: ");
+    scanf("%f", &x);
+
+    while(fabs(term)>error){
+        sum=sum+term;
+        term=term*(x/i);
+        i++;
+    }
+
+    printf("exp(x)= %.3f",sum);
+
+}
