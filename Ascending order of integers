@@ -1,0 +1,37 @@
+//First provide the number of numbers you want to arrange and then input them one by one. The list of numbers will be arranged in ascending order
+
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    
+    int x[20],n,i,j,a;
+    
+    printf("Enter count of numbers(<20):");
+    scanf("%d",&n);
+    
+    for(i=1;i<=n;i++)
+    {        
+        printf("Enter number %d:",i);
+        scanf("%d",&x[i]);
+    }
+    for(i=1;i<=n;i++)
+    {
+        for(j=i+1;j<=n;j++)
+        {
+            if (x[i]>x[j])
+            {
+                a=x[i];
+                x[i]=x[j];
+                x[j]=a;
+            }
+        }
+    }
+    
+    for (i=1;i<=n;i++)
+    {
+        printf("%d\n",x[i]);
+    }
+    
+    return 0;
+}
