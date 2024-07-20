@@ -4,6 +4,8 @@ Math Programs in C:
 
 ☘Value of exp(x) (through Taylor series Expansion)
 
+🌸Value of sin(x) (through Taylor series Expansion)
+
 🦐Ascending Order of Integers
 
 🐱‍🚀Descending Order of Integers
