@@ -4,6 +4,8 @@ Math Programs in C:
 
 ⛩Prime Numbers between 1 and 100
 
+🚕First 100 Prime Numbers
+
 🍬Summation of 1/n 
 
 ☘Value of exp(x) (through Taylor series Expansion)
