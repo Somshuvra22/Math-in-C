@@ -1,8 +1,10 @@
 Math Programs in C:
 
-🐴Summation of 1/n 
+🍬Summation of 1/n 
 
 🦐Ascending Order of Integers
+
+🐱‍🚀Descending Order of Integers
 
 🦁Largest and Smallest Integer in a Set
 
