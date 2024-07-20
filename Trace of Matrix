@@ -1,0 +1,28 @@
+//Input the dimension. Then input the elements of the matrix (column wise for each row). The code outputs the trace of the square matrix(sum of diagonal elements)
+
+#include <stdio.h>
+
+int main() {
+    float a[20][20],trace;
+    
+    int n,i,j;
+    
+    printf("Enter dim of the square matrix(<=20):");
+    scanf("%d",&n);
+    
+    printf("Enter the elements of the matrix:\n");
+    for(i=0;i<n;i++){
+        for(j=0;j<n;j++){
+            scanf("%f",&a[i][j]);
+        }
+    }
+    
+    trace=0.;
+    for(i=0;i<n;i++){
+        trace=trace+a[i][i];
+    }
+    
+    printf("Trace: %.2f",trace);
+    
+    return 0;
+}
