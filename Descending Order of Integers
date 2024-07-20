@@ -1,0 +1,27 @@
+//Input the number of numbers in your set. Then, input the numbers and the program will output out the numbers in descending order
+
+#include <stdio.h>
+
+void main(){
+    int n,i,j,a, x[20];
+    printf("The number of numbers(<=20): ");
+    scanf("%d",&n);
+
+    for(i=0;i<n;i++){
+        printf("Number %d: ",i+1);
+        scanf("%d",&x[i]);
+    }
+
+    for(i=0;i<n;i++){
+        for(j=i+1;j<n;j++){
+            if (x[i]<x[j]){
+                a=x[i];
+                x[i]=x[j];
+                x[j]=a;
+            }
+        }
+    }
+    for(i=0;i<n;i++){
+        printf("%d \n",x[i]);
+    }
+}
