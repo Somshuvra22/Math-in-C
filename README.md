@@ -2,6 +2,8 @@ Math Programs in C:
 
 🍬Summation of 1/n 
 
+☘Value of exp(x) (through Taylor series Expansion)
+
 🦐Ascending Order of Integers
 
 🐱‍🚀Descending Order of Integers
