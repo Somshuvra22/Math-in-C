@@ -1,5 +1,7 @@
 Math Programs in C:
 
+🛴Detection of Prime Number
+
 🍬Summation of 1/n 
 
 ☘Value of exp(x) (through Taylor series Expansion)
