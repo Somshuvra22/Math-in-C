@@ -25,3 +25,6 @@ Math Programs in C:
 🦉Seperate Even & Odd Numbers
 
 🥑Trace of Matrix
+
+🏛Simspson's 1/3rd Rule
+(Intuition:https://www.youtube.com/watch?v=DdNAcv_rezc)
