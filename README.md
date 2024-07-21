@@ -14,7 +14,7 @@ Math Programs in C:
 
 🌸Value of sin(x) (through Taylor series Expansion)
 
-🐸Value of sin(x) for(x=0.1,x<=0.9,x+=0.2) as a Taylor Series expansion (calculation upto 7 terms)
+🐸Value of sin(x) as a Taylor Series expansion (calculation upto 7 terms)
 
 🦐Ascending Order of Integers
 
