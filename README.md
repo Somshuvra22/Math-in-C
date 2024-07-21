@@ -1,5 +1,7 @@
 Math Programs in C:
 
+⛰First n Terms of Fibonacci Sequence
+
 🛴Detection of Prime Number
 
 ⛩Prime Numbers between 1 and 100
