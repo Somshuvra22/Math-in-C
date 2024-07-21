@@ -1,0 +1,22 @@
+//gives the user the output for sin(x) using Taylor series expansion (calculation upto seven terms)
+
+#include <stdio.h>
+
+int main() {
+    int i=1;
+    float sum=0.,term,x,error=1.e-12;
+
+    printf("Value of x:");
+    scanf("%f",&x);
+
+    term=x;
+
+    while(fabs(term)>error && i<=8){
+        sum=term+sum;
+        term=(term*(-1*x*x))/((2.*i)*(2.*i+1.));
+        i++;
+    }
+    printf("%f\n",sum);
+
+    return 0;
+}
