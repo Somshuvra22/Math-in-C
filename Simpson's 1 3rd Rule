@@ -1,0 +1,38 @@
+//Model Function used: 1+x^2/sqrt(1+cos x)
+
+#include <stdio.h>
+#include <math.h>
+
+float f(float x);
+
+int main() 
+{
+    int i,n;
+    float h,sum=0,b,a;
+    
+    printf("Enter upper and lower limits:\n");
+    scanf("%f%f", &b,&a);
+    
+    printf("Enter number of intervals:\n");
+    scanf("%d", &n);
+    
+    h=(b-a)/n;
+    
+    for (i=0;i<=n-1;i=i+2){
+        sum=sum + 
+        f(a+i*h) + 
+        4*f(a+((1+i)*h)) +
+        f(a+((2+i)*h));
+    }
+    
+    sum=sum*(h/3);
+    printf("%.4f",sum);
+    
+    return 0;
+}
+
+float f(float x){
+    float y;
+    y=(1+pow(x,2))/sqrt(1+cos(x));
+    return (y);
+}
