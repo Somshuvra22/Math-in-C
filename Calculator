@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main() {
+    int a,b,c;
+    char op;
+    printf("Enter the operation:");
+    scanf("%d%c%d",&a,&op,&b);
+    switch(op){
+        case '+':
+            c=a+b;
+            printf("%d",c);
+            break;
+        case '-':
+            c=a-b;
+            printf("%d",c);
+            break;
+        case '*':
+            c=a*b;
+            printf("%d",c);
+            break;
+            
+        case '/':
+            c=a/b;
+            printf("%d",c);
+            break;
+    }
+return 0;
+}
