@@ -1,5 +1,7 @@
 Math Programs in C:
 
+🚨Calculator for Integers
+
 ⛰First n Terms of Fibonacci Sequence
 
 🛴Detection of Prime Number
