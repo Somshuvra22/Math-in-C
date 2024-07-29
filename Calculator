@@ -1,33 +1,40 @@
 #include <stdio.h>
+
 int main() {
-    int a,b,i=0;
+    int a,b,f;
     float c;
     char op;
-    while(i==0){
-        printf("Enter the operation:");
-        scanf("%d%c%d",&a,&op,&b);
-        switch(op)
+
+    printf("Enter the operation:");
+    f=scanf("%d%c%d",&a,&op,&b);
+
+    if (f==3)
+    {
+    switch(op)
         {
         case '+':
             c=a+b;
-            i=1;
+            printf("Answer: %.3f",c);
             break;
+
         case '-':
             c=a-b;
-            i=1;
+            printf("Answer: %.3f",c);
             break;
+
         case '*':
             c=a*b;
-            i=1;
             break;
         case '/':
             c=(float)a/b;
-            i=1;
+            printf("Answer: %.3f",c);
             break;
+
         default:
             printf("Invalid Operation\n");
         }
     }
-    printf("Answer: %.3f",c);
-return 0;
+    else
+        printf("Error");
+    return 0;
 }
